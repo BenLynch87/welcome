@@ -5,7 +5,7 @@ function Navigation(props) {
   return (
     <ul>
       <li>
-        <Link to="/welcome/default">Home</Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
         <Link to="/clock">Clock</Link>

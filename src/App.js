@@ -15,6 +15,11 @@ class App extends Component {
         <Switch>
           <Route
             exact
+            path="/"
+            render={(props) => <Welcome {...props} name="Ben" />}
+          />
+          <Route
+            exact
             path="/welcome/:name"
             render={(props) => <Welcome {...props} name="Ben" />}
           />
